@@ -26,28 +26,26 @@ Follow these instructions to get a copy of the project up and running on your lo
 1. **Clone the repository:**
 
    ```sh
-   git clone https://github.com/your-username/banking-system.git
+    git clone https://github.com/your-username/banking-system.git
+    ```
+2. **Navigate to the project directory:**
 
-    Navigate to the project directory:
+    ```sh
+    cd banking-system
+    ```
+3. **Install the dependencies:**
 
-    sh
-
-cd banking-system
-
-Install the dependencies:
-
-sh
-
+    ```sh
     npm install
-
-###Running the Tests
+    ```
+## Running the Tests
 
 This project uses Mocha and Chai for testing. To run the tests, use the following command:
 
-sh
-
-npm test
-
+    ```sh
+    npm test
+    ```
+    
 You should see output indicating that the tests are running and their results.
 Usage
 
@@ -60,10 +58,11 @@ Methods
     checkBalance(accountNumber): Returns the balance of the account with the given account number.
     numberOfAccounts(): Returns the total number of accounts.
 
-###Example
+### Example
 
 javascript
 
+```sh
 import BankingSystem from './service/BankingSystem.js';
 
 const bankingSystem = new BankingSystem();
@@ -73,11 +72,13 @@ bankingSystem.depositFunds('123456', 100.00);
 bankingSystem.withdrawFunds('123456', 50.00);
 
 console.log(bankingSystem.checkBalance('123456')); // Should print 50.00
-
-###License
+```
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 Acknowledgments
 
+    ```sh
     This project is intended for educational purposes to demonstrate Test Driven Development (TDD) practices.
     Inspired by various TDD tutorials and examples available online.
+    ```
