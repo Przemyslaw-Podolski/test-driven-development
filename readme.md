@@ -42,9 +42,8 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 This project uses Mocha and Chai for testing. To run the tests, use the following command:
 
-    ```sh
+    
     npm test
-    ```
     
 You should see output indicating that the tests are running and their results.
 Usage
@@ -78,7 +77,7 @@ console.log(bankingSystem.checkBalance('123456')); // Should print 50.00
 This project is licensed under the MIT License - see the LICENSE file for details.
 Acknowledgments
 
-    ```sh
-    This project is intended for educational purposes to demonstrate Test Driven Development (TDD) practices.
-    Inspired by various TDD tutorials and examples available online.
-    ```
+    
+This project is intended for educational purposes to demonstrate Test Driven Development (TDD) practices.
+Inspired by various TDD tutorials and examples available online.
+    
